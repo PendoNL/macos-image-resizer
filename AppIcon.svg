@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2DD4A8"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.85"/>
+    </linearGradient>
+    <clipPath id="roundRect">
+      <rect x="0" y="0" width="1024" height="1024" rx="228" ry="228"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background with rounded corners (macOS icon shape) -->
+  <g clip-path="url(#roundRect)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+  </g>
+
+  <!-- Large image frame (background, represents original size) -->
+  <g clip-path="url(#roundRect)">
+    <rect x="220" y="240" width="584" height="440" rx="24" ry="24"
+          fill="none" stroke="white" stroke-opacity="0.3" stroke-width="12"/>
+
+    <!-- Mountain/landscape hint inside the frame -->
+    <path d="M220 580 L380 440 L480 520 L600 380 L804 580 L804 668 Q804 680 792 680 L232 680 Q220 680 220 668 Z"
+          fill="white" fill-opacity="0.15"/>
+
+    <!-- Small sun circle -->
+    <circle cx="340" cy="340" r="40" fill="white" fill-opacity="0.2"/>
+
+    <!-- Small resized frame (foreground, represents target size) -->
+    <rect x="460" y="460" width="350" height="264" rx="18" ry="18"
+          fill="url(#bg)" stroke="white" stroke-opacity="0.9" stroke-width="10"/>
+
+    <!-- Resize arrows: diagonal double-headed arrow -->
+    <!-- Arrow body -->
+    <line x1="540" y1="650" x2="740" y2="510"
+          stroke="url(#arrow)" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- Arrow head top-right -->
+    <polyline points="700,500 740,510 730,550"
+              fill="none" stroke="url(#arrow)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Arrow head bottom-left -->
+    <polyline points="580,660 540,650 550,610"
+              fill="none" stroke="url(#arrow)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Small mountain in the resized frame -->
+    <path d="M460 640 L560 560 L620 600 L700 530 L810 640 L810 706 Q810 724 792 724 L478 724 Q460 724 460 706 Z"
+          fill="white" fill-opacity="0.2"/>
+  </g>
+</svg>
