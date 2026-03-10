@@ -1,0 +1,25 @@
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Build output
+DerivedData/
+build/
+*.ipa
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.claude/
+
+# Archives
+*.xcarchive
+
+# CocoaPods / SPM (not used, but just in case)
+Pods/
+.build/
