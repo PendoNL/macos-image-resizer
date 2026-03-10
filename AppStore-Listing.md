@@ -39,10 +39,13 @@ Built as a native macOS app with no subscriptions, no accounts, and no data coll
 Batch resize, convert, and strip metadata from your images. Drop, configure, resize. No subscriptions, no accounts.
 
 ## Support URL
-(You'll need to provide this — can be a simple webpage, GitHub repo, or email address)
+https://github.com/PendoNL/macos-image-resizer/issues
 
-## Marketing URL (optional)
-(Your website or landing page, if you have one)
+## Marketing URL
+https://pendo.nl
+
+## Privacy Policy URL
+https://github.com/PendoNL/macos-image-resizer/blob/main/PRIVACY.md
 
 ## What's New in This Version
 Initial release — batch image resizing with three resize modes, format conversion, filename templates, and metadata stripping.
