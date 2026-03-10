@@ -4,6 +4,12 @@ A native macOS app for batch image resizing. Drop your images in, pick your sett
 
 Built with Swift and SwiftUI. No third-party dependencies.
 
+## Screenshots
+
+| Fixed Dimensions | Max Dimension | Percentage | Batch Complete |
+|---|---|---|---|
+| ![Fixed](screenshots/01-fixed.png) | ![Max Dimension](screenshots/02-max-dimension.png) | ![Percentage](screenshots/03-percentage.png) | ![Complete](screenshots/04-resize-complete.png) |
+
 ## Features
 
 - **Drag & drop** — drop individual images or entire folders
